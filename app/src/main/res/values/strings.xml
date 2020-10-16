@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Duo Example</string>
+
+    <string name="hello_blank_fragment">This is the main fragment</string>
+
+    <array name="menuOptions">
+        <item>Profile</item>
+        <item>Pharmacies</item>
+        <item>About Us</item>
+        <item>FAQ</item>
+    </array>
+</resources>

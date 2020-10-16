@@ -1,0 +1,54 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerVertical="true"
+    android:background="@android:color/white">
+
+    <ImageView
+        android:id="@+id/duo_view_menu_background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"/>
+
+    <RelativeLayout
+        android:id="@+id/duo_view_menu_header_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="@android:color/white"
+        />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/duo_view_menu_footer_layout"
+        android:layout_below="@+id/duo_view_menu_header_layout"
+        android:background="@android:color/white"
+        >
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+           >
+
+            <LinearLayout
+                android:id="@+id/duo_view_menu_options_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:orientation="vertical"/>
+        </ScrollView>
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/duo_view_menu_footer_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:layout_alignParentBottom="true"
+     />
+</RelativeLayout>
